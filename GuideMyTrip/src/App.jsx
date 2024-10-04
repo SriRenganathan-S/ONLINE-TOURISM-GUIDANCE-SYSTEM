@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Travellerchoice from './pages/Travellerchoice';
 import Travelstories from './pages/Travelstories';
 import Planyourtrip from './pages/Planyourtrip';
-import Hotels from './pages/Hotels';
 import Contactus from './pages/Contactus';
 import Review from './pages/Review';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Forex from './pages/Forex';
+import Hireaguide from './pages/Hireaguide';
 
 function App() {
 	return (
@@ -23,7 +23,7 @@ function App() {
 					<Route path='/traveller-choice' element={<Travellerchoice />} />
 					<Route path='/travel-stories' element={<Travelstories />} />
 					<Route path='/plan-your-trip' element={<Planyourtrip />} />
-					<Route path='/hotels' element={<Hotels />} />
+					<Route path='/hire-a-guide' element={<Hireaguide />} />
 					<Route path='/contact-us' element={<Contactus />} />
 					<Route path='/review' element={<Review />} />
 					<Route path='/login' element={<Login />} />

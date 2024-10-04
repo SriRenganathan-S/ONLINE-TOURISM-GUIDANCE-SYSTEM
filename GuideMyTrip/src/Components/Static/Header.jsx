@@ -18,7 +18,7 @@ function Header() {
                 <ul className="menu menu-horizontal px-1 text-lg">
                     <li>
                         <details>
-                            <summary>Discover</summary>
+                            <summary >Discover</summary>
                             <ul className="p-2 text-base w-48 bg-white">
                                 <li><Link to='/traveller-choice'>Traveller's Choice</Link></li>
                                 <li><Link to='/travel-stories'>Travel Stories</Link></li>
@@ -26,7 +26,7 @@ function Header() {
                         </details>
                     </li>
                     <li><Link  to='/plan-your-trip'>Plan your trip</Link></li>
-                    <li><Link  to='/hotels'>Hotels</Link></li>
+                    <li><Link  to='/hire-a-guide'>Hire a guide</Link></li>
                     <li><Link  to='/contact-us'>Contact Us</Link></li>
                     <li><Link  to='/review'>Review</Link></li>
                 </ul>
