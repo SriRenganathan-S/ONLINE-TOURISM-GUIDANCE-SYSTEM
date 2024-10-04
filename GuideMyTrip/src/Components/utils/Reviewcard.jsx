@@ -26,15 +26,15 @@ function Reviewcard() {
                 </div>
             </div>
             <div className='flex gap-10'>
-            <div>
-                <p className='text-s'>()</p>
+                <div>
+                    <p className='text-s'>()</p>
+                </div>
+                <div>
+                    <p className='text-s'>(time:)</p>
+                </div>
             </div>
             <div>
-                <p className='text-s'>(time:)</p>
-            </div>
-            </div>
-            <div>
-            <p className='text-normal'>(Description:)</p>
+                <p className='text-normal'>(Description:)</p>
             </div>
         </div>
     )

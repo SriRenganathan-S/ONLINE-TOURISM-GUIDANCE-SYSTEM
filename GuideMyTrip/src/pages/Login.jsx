@@ -1,7 +1,13 @@
 import React from 'react'
 import { WideButton } from '../Components/utils/buttons'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 function Login() {
+	const nav = useNavigate()
+	function handleClick() {
+		nav('/sign-up')
+	}
 	return (
 		<div className='flex justify-center'>
 			<div className=" flex items-start justify-center my-5 bg-secondary rounded-xl artboard phone-1 mb=15 border-black border-2">
@@ -19,8 +25,8 @@ function Login() {
 					</div>
 					<WideButton className='w-36 mt-5' btnText={'Login'}></WideButton>
 					<div className='flex mt-24 '>
-						<h4>Not a member!</h4>
-						<h5 className='text-blue-700 mx-2 '>Signup</h5>
+						<h4>Not a member?</h4>
+						<Link to='/sign-up'><h5 className='text-blue-700 mx-2 '>Signup</h5></Link>
 					</div>
 				</div>
 			</div>

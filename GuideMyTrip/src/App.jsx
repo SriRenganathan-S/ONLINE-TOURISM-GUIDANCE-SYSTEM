@@ -11,6 +11,7 @@ import Contactus from './pages/Contactus';
 import Review from './pages/Review';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Forex from './pages/Forex';
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 					<Route path='/review' element={<Review />} />
 					<Route path='/login' element={<Login />} />
 					<Route path='/sign-up' element={<Signup />} />
+					<Route path='/forex' element={<Forex />} />
 				</Routes>
 			</div>
 			<Footer />
