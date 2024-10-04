@@ -10,9 +10,9 @@ export function GoButton({btnText}) {
     <div><button className="btn btn-primary w-24">{btnText}</button></div>
   )
 }
-export function WideButton({btnText}) {
+export function WideButton({btnText,className}) {
   return (
-    <div><button className="btn btn-primary btn-wide">{btnText}</button></div>
+    <div><button className={`btn btn-primary btn-wide ${className}`}>{btnText}</button></div>
   )
 }
 

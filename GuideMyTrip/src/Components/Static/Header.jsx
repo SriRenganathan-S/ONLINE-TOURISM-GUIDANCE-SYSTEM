@@ -8,13 +8,13 @@ function Header() {
         nav('/sign-up')
     }
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 ">
             <div className="navbar-start">
                 <Link to='/'>
                 <a className="btn btn-ghost text-xl w-20 h-20"><img src="/logo.png" alt="logo" /></a></Link>
                 
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex ">
                 <ul className="menu menu-horizontal px-1 text-lg">
                     <li>
                         <details>
@@ -25,10 +25,10 @@ function Header() {
                             </ul>
                         </details>
                     </li>
-                    <li><Link to='/plan-your-trip'>Plan your trip</Link></li>
-                    <li><Link to='/hotels'>Hotels</Link></li>
-                    <li><Link to='/contact-us'>Contact Us</Link></li>
-                    <li><Link to='/review'>Review</Link></li>
+                    <li><Link  to='/plan-your-trip'>Plan your trip</Link></li>
+                    <li><Link  to='/hotels'>Hotels</Link></li>
+                    <li><Link  to='/contact-us'>Contact Us</Link></li>
+                    <li><Link  to='/review'>Review</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
