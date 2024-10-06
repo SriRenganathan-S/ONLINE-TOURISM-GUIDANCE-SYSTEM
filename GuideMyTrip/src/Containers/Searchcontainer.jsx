@@ -1,5 +1,6 @@
 import React from 'react'
 import { GoButton } from '../Components/utils/buttons'
+import { Link } from 'react-router-dom'
 
 function Searchcontainer() {
     return (
@@ -20,7 +21,7 @@ function Searchcontainer() {
                     <input type="text" className="text-md w-96 "/>
 
                 </label>
-                <GoButton btnText={'Go'} />
+                <Link to='/plan-your-trip'><GoButton btnText={'Go'} /></Link>
             </div>
         </div>
 
