@@ -1,5 +1,5 @@
 import React from 'react'
-import Searchcontainer from '../Containers/searchcontainer'
+import Searchcontainer from '../Containers/Searchcontainer'
 import Aboutcontainer from '../Containers/Aboutcontainer'
 import Yearcontainer from '../Containers/Yearcontainer'
 import SeasonContainer from '../Containers/Seasoncontainer'
