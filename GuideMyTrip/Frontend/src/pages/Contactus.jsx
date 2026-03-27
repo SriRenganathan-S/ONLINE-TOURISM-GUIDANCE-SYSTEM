@@ -3,7 +3,6 @@ import Contact from '../assets/Contactus/Contact.png'
 import { WideButton } from '../Components/utils/buttons'
 import { useState } from 'react'
 import axios from 'axios'
-import { comment } from 'postcss'
 
 function Contactus() {
 

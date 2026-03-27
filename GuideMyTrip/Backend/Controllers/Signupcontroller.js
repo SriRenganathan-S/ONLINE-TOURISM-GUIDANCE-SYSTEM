@@ -6,7 +6,7 @@ const signup=async(req,res)=>{
             username,email,password
         });
         await newuser.save();
-        console.log(`username: ${username},email: ${username},password: ${username}`);
+        console.log(`username: ${username},email: ${email},password: ${password}`);
         res.json({message:'user created successfully'});
     }
     catch(error){

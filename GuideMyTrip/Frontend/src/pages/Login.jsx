@@ -74,7 +74,7 @@ function Login() {
 					<h2 className='mr-40 pt-10'>Email-ID:</h2>
 					<input type="text" onChange={handlemailchange} placeholder="Type here" className="input input-bordered  w-full max-w-xs " />
 					<h3 className='mr-40 pt-5'>Password:</h3>
-					<input type="text" onChange={handlepasschange} placeholder="Type here" className="input input-bordered  w-full max-w-xs" />
+					<input type="password" onChange={handlepasschange} placeholder="Type here" className="input input-bordered  w-full max-w-xs" />
 					<div className="form-control mr-24 mt-3">
 						<label className="label cursor-pointer gap-3">
 							<input type="checkbox" className="checkbox" checked={rememberMe} onChange={handleRememberMeChange} />

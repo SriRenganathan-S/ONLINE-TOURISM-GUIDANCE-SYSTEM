@@ -25,7 +25,7 @@ function Review() {
       setreviews(fetchedreviews.data)
     }
     fetchreviews()
-  }
+  },[]
 )
  
 

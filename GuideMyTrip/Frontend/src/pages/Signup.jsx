@@ -83,9 +83,9 @@ function Signup() {
 						<h3 className='mr-60 pt-5'>Email-ID:</h3>
 						<input type="text" placeholder="Type here" onChange={handlechange2} className="input input-bordered  w-full max-w-xs " />
 						<h3 className='mr-40 pt-5'>Enter new Password:</h3>
-						<input type="text" placeholder="Type here" onChange={handlechange3} className="input input-bordered  w-full max-w-xs" />
+						<input type="password" placeholder="Type here" onChange={handlechange3} className="input input-bordered  w-full max-w-xs" />
 						<h4 className='mr-44 pt-5'>Re-enter Password:</h4>
-						<input type="text" placeholder="Type here" onChange={handleConfirmPasswordChange} className="input input-bordered  w-full max-w-xs" />
+						<input type="password" placeholder="Type here" onChange={handleConfirmPasswordChange} className="input input-bordered  w-full max-w-xs" />
 						<WideButton onclick={handlesignup} className='w-36 mt-10' btnText={'Sign Up'} disabled={isButtonDisabled}></WideButton>
 						<div className='flex mt-16 '>
 							<h4>Already a member?</h4>
